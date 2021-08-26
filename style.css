@@ -15,7 +15,6 @@ h4 {
 p {
   font-size: 26px;
 }
-
 /* Mobile sizing */
 @media (max-width: 450px) {
   h1,
@@ -31,11 +30,4 @@ p {
     background-color: #3d3b8e;
     color: #fff;
   }
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  justify-items: center;
-  background-color: yellow;
 }
