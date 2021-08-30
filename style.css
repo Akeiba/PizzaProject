@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@500&display=swap");
 
-/* Standard Sizing */
+/* Standard size formatting */
 body {
   font-family: "Kaisei Tokumin", serif;
   background-color: #b0e298;
@@ -14,14 +14,9 @@ h4 {
 
 p {
   font-size: 26px;
-<<<<<<< HEAD
-  color: pink;
-}
-=======
 }
 
->>>>>>> flexbox
-/* Mobile sizing */
+/* Mobile size formatting */
 @media (max-width: 450px) {
   h1,
   h4 {
