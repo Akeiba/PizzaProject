@@ -14,8 +14,13 @@ h4 {
 
 p {
   font-size: 26px;
+<<<<<<< HEAD
   color: pink;
 }
+=======
+}
+
+>>>>>>> flexbox
 /* Mobile sizing */
 @media (max-width: 450px) {
   h1,
