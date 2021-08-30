@@ -33,11 +33,41 @@ p {
   }
 }
 
+/* Grid Styling */
 @media (min-width: 480px) {
   .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: auto 500px;
+    grid-template-rows: 350px 300px;
     align-items: center;
+    justify-content: center;
   }
+}
+
+/* Top Page Grid */
+h3 {
+  grid-column-start: 1;
+}
+
+.pizza-img {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  width: 80%;
+  height: 60%;
+}
+
+/* Bottom Page Grid */
+.cheesey-facts {
+  grid-row-start: 1;
+}
+
+.my-pizza-toppings {
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+.dancing-pizza {
+  grid-column-start: 2;
+  grid-row-start: 2;
 }
