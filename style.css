@@ -14,14 +14,6 @@ h4 {
 
 p {
   font-size: 26px;
-  color: pink;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  justify-items: center;
-  background-color: yellow;
 }
 
 /* Mobile sizing */
